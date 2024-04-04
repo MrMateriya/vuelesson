@@ -4,6 +4,7 @@ import HomeView from "@/views/HomeView/HomeView.vue";
 import AboutView from "@/views/AboutView/AboutView.vue";
 import ProductView from "@/views/ProductView/ProductView.vue";
 import NotFoundView from "@/views/NotFoundView/NotFoundView.vue";
+import WeatherView from "@/views/WeatherView/WeatherView.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -32,6 +33,11 @@ const router = createRouter({
       path: '/:pathMatch(.*)*',
       name: 'not found',
       component: NotFoundView,
+    },
+    {
+      path: '/weather',
+      name: 'weather',
+      component: WeatherView,
     },
   ]
 })

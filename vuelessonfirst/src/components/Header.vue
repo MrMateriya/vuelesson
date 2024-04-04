@@ -10,6 +10,7 @@
         <li><RouterLink to="/products">Товары</RouterLink></li>
         <li><RouterLink to="/photos">Фотки</RouterLink></li>
         <li><RouterLink to="/about">О компании</RouterLink></li>
+        <li><RouterLink to="/weather">Погода</RouterLink></li>
       </ul>
     </nav>
   </header>
