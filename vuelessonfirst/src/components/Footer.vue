@@ -14,7 +14,7 @@
   display: flex;
   align-items: start;
   padding: 10px;
-  background-color: rgba(216, 171, 255, 0.56);
+  background-color: rgba(44, 36, 52, 0.56);
   justify-content: space-between;
   color: aliceblue;
   text-transform: uppercase;

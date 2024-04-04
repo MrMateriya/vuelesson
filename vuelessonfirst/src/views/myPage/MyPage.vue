@@ -65,7 +65,7 @@ export default {
 }
 .photo-gallery__content {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 30px;
 }
 .page-title {
@@ -97,5 +97,15 @@ export default {
   border-radius: 20px;
   font-size: 30px;
   color: teal;
+}
+@media (max-width: 1720px) {
+  .container {
+    width: auto;
+    padding: 0 20px;
+  }
+  .photo-gallery__content {
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
 }
 </style>

@@ -20,7 +20,7 @@
 
 }
 nav {
-  background-color: rgba(216, 171, 255, 0.56);
+  background-color: rgba(68, 55, 80, 0.56);
 }
 ul {
   list-style: none;
